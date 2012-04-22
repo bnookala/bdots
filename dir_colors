@@ -164,6 +164,7 @@ EXEC 01;38;5;64
 .eps    00;38;5;136
 .CR2    00;38;5;136
 .ico    00;38;5;136
+.psd    00;38;5;136
 
 # Files of special interest (base1 + bold)
 .tex             01;38;5;245
@@ -247,15 +248,19 @@ EXEC 01;38;5;64
 .ogx 01;38;5;166
 
 # Code files
-.js 00;38;5;62
-.cc 00;38;5;62
-.py 00;38;5;62
-.c 00;38;5;62
-.cpp 00;38;5;62
-.h 00;38;5;62
+.js 01;38;5;66
+.cc 01;38;5;66
+.py 01;38;5;66
+.c 01;38;5;66
+.cpp 01;38;5;66
+.h 01;38;5;66
+.rb 01;38;5;66
+.java 01;38;5;66
 
 # Markup files
 .css 00;38;5;180
+.less 00;38;5;180
+.scss 00;38;5;180
 .json 00;38;5;180
 .md  00;38;5;180
 .html 00;38;5;180
@@ -266,10 +271,14 @@ EXEC 01;38;5;64
 # License/Readme
 *README          00;38;5;148
 *README.txt      00;38;5;148
-*readme.txt      00;38;5;148
 *README.md       00;38;5;148
 *README.markdown 00;38;5;148
+*README.rst      00;38;5;148
+*README.rdoc     00;38;5;148
+*readme.txt      00;38;5;148
 *LICENSE         00;38;5;148
+*LICENSE.txt     00;38;5;148
+*AUTHORS         00;38;5;148
 
 # Makefiles/configuration
 *Rakefile        00;38;5;130
