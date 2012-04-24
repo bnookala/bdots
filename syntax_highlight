@@ -17,7 +17,7 @@ ZLE_DOUBLE_QUOTED='fg=red,bold'
 ZLE_BACK_QUOTED='fg=cyan,bold'
 ZLE_GLOBING='fg=blue,bold'
 
-ZLE_DEFAULT='fg=white,bold'
+ZLE_DEFAULT='fg=white'
 
 ZLE_TOKENS_FOLLOWED_BY_COMMANDS=('|' '||' ';' '&' '&&' 'sudo' 'start' 'time' 'strace' '§')
 
